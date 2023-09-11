@@ -1,0 +1,85 @@
+<!-- When creating a website, the main page of the website is often named "index.html," and many web servers automatically locate and open this file. This is not mandatory and can be named differently, but in such cases, you may need to specify how to direct the web server to this specific structure and files. Therefore, naming the main file "index.html" is a good practice to ensure easy access for users of your website. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Media </title>
+
+</head>
+<body>
+
+    
+<!-- A picture is worth a thousand words! Web pages with images get more views, rank higher in search result, and get shared more on social media. -->
+
+<!-- Images only require one tag to be displayed on your web page. -->
+
+<img>
+
+<!-- Image are not technically inserted into a web page, they are linked. The source (src) of the image needs to be included in the tag. -->
+
+<img src="image_location" > <br>
+
+<!-- You need to tell the browser where to find the image. The source (src) is the location on the Internet where the image is stored. -->
+
+<!-- The URL is a location (or address) on the Web. The image URL needs to be enclosed in either single or double quotes. -->
+
+<img src="https://camo.githubusercontent.com/3e0ed309be401f9f784dda877ad60d0a20c805844554c9ebefe5ab6cc6b5e819/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f70726163746963616c6465762f696d6167652f66657463682f732d2d4534676e4575795f2d2d2f635f6c696d6974253243665f6175746f253243666c5f70726f6772657373697665253243715f3636253243775f3838302f68747470733a2f2f6465762d746f2d75706c6f6164732e73332e616d617a6f6e6177732e636f6d2f75706c6f6164732f61727469636c65732f3233336d3034783072306c7636307061797269612e676966"> <br>
+
+
+<!-- Web browser request imformation from the Web to put together and display web pages. -->
+
+<!-- Code, documents and media files such as images and videos are put together by the browser to display the resulting web page. -->
+
+<!-- Web server are computers that are always connected to the Internet and continuosly listening for request of imformation. Media files must be hosted on the internet to be viewable; otherwise, no one else can see them except for you. -->
+
+<img src="birdimage.img"> <p> There are no photos that are not continuously stored on the internet, so they appear this way.</p>
+
+<br>
+
+<p>The "br" tag is used in HTML to indicate the end of a line and the start of the next line with a new paragraph or space.</p><br>
+
+
+<!-- Images do not require closing tags. One tag (<img>) is enough to link an image to a web page. Image tags are examples of empty (non-container) tags. -->
+
+
+<!-- On the other hand, videos require both opening and closing tags. Video tags are container tags. -->
+
+
+<!-- When adding a video, the <source> tag is used. If you don't include "controls," the video won't work.-->
+
+<p>Video-1</p>
+
+<video controls>
+
+
+    <source src="sky.mp4" type="video/mp4"> 
+
+</video>
+
+
+<!-- With 'autoplay muted', the video starts playing as soon as the page is opened, runs once, and then stops, but there is no control over the video. -->
+
+<p>Video-2</p>
+
+<video autoplay muted>
+
+    <source src="sky.mp4" type="video/mp4"> 
+
+</video>
+
+
+<!-- With 'autoplay muted loop', the video starts playing as soon as the page is opened and runs in an infinite loop, but there is no control over the video. -->
+
+<p>Video-3</p>
+
+<video autoplay muted loop>
+
+    <source src="sky.mp4" type="video/mp4" widht="250px" height="100px"> 
+
+</video>
+
+    
+</body>
+</html>
